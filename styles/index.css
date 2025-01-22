@@ -108,6 +108,11 @@ p {
 img {
     margin-left: 20px;
 }
+
+#photo img {
+    border:#557555;
+}
+
 /* end main content styles */
 
 /* footer styles */
