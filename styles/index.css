@@ -2,17 +2,17 @@
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 0px solid #afc8ee;
-    background-color: rgb(255, 255, 255);
+    border: none;
+    background-color: #fef5e7;
 }
 
-/* Centers tabs */
+/* Position & size tabs */
 .tab {
     position: flex;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 609px;
 }
 
 /* Hover over the tabs to change */
@@ -33,7 +33,7 @@
     font-size: 16px;
     border: none;
     outline: none;
-    color:#911d1d;
+    color:#95bc95;
     padding: 14px 16px;
     background-color: inherit;
 }
@@ -44,14 +44,14 @@
 /* style the dropdown content */
 .dropdown-content a {
     float: none;
-    color: #911d1d;
-    padding: 12px 16px;
+    color: #95bc95;
+    padding: 14px 16px;
     display: block;
     text-align: left;
 }
 /* color when hovering */
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #ffff;
 }
 /* dropdown becomes visible when hover */
 .tab:hover .dropdown-content {
@@ -61,7 +61,7 @@
 /* style social media buttons */
 .button {
     background-color: #bfcba7;
-    border: black;
+    border: none;
     color: whitesmoke;
     padding: 15px 32px;
     text-align: center;
@@ -70,25 +70,20 @@
     cursor: pointer;
 }
 
+/* encapsulate social media buttons */
 .wrapper {
     text-align: center;
     display: block;
 }
 
+/* main content styles starts here */
 
-/* box for unknown yet */
-.box1 { 
-    margin: 1;
-    flex: 1;
-    padding: 35px;
-    width: 5%;
-    border: solid 5px, #911d1d;
-}
-/* main text styles */
+
 h1 {
     font-size: 40px;
     text-align: center;
 }
+
 /* position and size for header */
 .explore {
     position: flex;
@@ -97,14 +92,27 @@ h1 {
     margin-right: auto;
     width: 800px;
     height: 200px;
-    
 }
 
-.first-paragraph {
+h2 {
+    margin-left: 20px;
+    margin-top: 7%;
+    color: #557555;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+img {
     margin-left: 20px;
 }
+/* end main content styles */
 
+/* footer styles */
 h3 {
+    color: #95bc95;
     text-align: center;
-    color: rgb(212, 233, 179);
+    margin-top: 20%;
 }
